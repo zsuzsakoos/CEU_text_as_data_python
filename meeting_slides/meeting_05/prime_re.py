@@ -8,5 +8,5 @@ import re
 def is_prime(n):
     return not re.match(r'^.?$|^(..+?)\1+$', '1'*n)
 
-for i in range(1, 20):
+for i in range(1, 200):
     print(i, is_prime(i))
